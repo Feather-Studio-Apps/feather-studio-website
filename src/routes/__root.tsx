@@ -157,7 +157,7 @@ function Footer() {
         <p className="text-sm uppercase tracking-widest opacity-60">Contact</p>
         <a
           href="mailto:featherstudio@proton.me"
-          className="headline mt-4 block text-2xl sm:text-3xl lg:text-4xl"
+          className="headline mt-4 block text-lg sm:text-xl lg:text-2xl"
         >
           featherstudio@proton.me
         </a>
