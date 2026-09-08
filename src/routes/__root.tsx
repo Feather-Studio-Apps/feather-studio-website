@@ -122,10 +122,10 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link to="/" className="headline text-lg tracking-tight text-foreground">
+        <Link to="/" className="headline text-sm tracking-tight text-foreground">
           Daren Irlen
         </Link>
-        <nav className="flex items-center gap-6 text-sm font-medium">
+        <nav className="flex items-center gap-4 text-xs font-medium">
           <a
             href="/#work"
             className="text-muted-foreground transition-colors hover:text-foreground"
@@ -140,7 +140,7 @@ function Header() {
           </a>
           <a
             href="mailto:featherstudio@proton.me"
-            className="rounded-full bg-primary px-4 py-2 text-primary-foreground transition-opacity hover:opacity-80"
+            className="rounded-full bg-primary px-3 py-1.5 text-xs text-primary-foreground transition-opacity hover:opacity-80"
           >
             Get in touch
           </a>
