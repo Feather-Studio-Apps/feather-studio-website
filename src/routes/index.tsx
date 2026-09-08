@@ -5,7 +5,7 @@ import heroImg from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Feather Studio | Daren Irlen - Mobile App Developer & Designer" },
+      { title: "Daren Irlen - Mobile App Developer & Designer" },
       {
         name: "description",
         content:
