@@ -72,7 +72,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Feather Studio | Daren Irlen — Mobile App Developer" },
+      { title: "Daren Irlen — Mobile App Developer" },
       {
         name: "description",
         content:
@@ -157,7 +157,7 @@ function Footer() {
         <p className="text-sm uppercase tracking-widest opacity-60">Contact</p>
         <a
           href="mailto:featherstudio@proton.me"
-          className="headline mt-4 block text-4xl sm:text-6xl lg:text-7xl"
+          className="headline mt-4 block text-2xl sm:text-3xl lg:text-4xl"
         >
           featherstudio@proton.me
         </a>
